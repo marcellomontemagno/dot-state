@@ -1,0 +1,35 @@
+{
+  "name": "dot-state",
+  "version": "0.0.0",
+  "description": "An easy and &#34;developer experience&#34; focused, state management library for React applications.",
+  "main": "./build/umd/umd.js",
+  "react-scv": {
+    "appBuildEntry": "src/app.js",
+    "umdBuildEntry": "src/module/index.js",
+    "html": {
+      "title": "dot-state",
+      "description": "An easy and &#34;developer experience&#34; focused, state management library for React applications."
+    },
+    "devServer": {
+      "port": "4000"
+    }
+  },
+  "scripts": {
+    "build": "react-scv build",
+    "start": "react-scv start",
+    "test": "react-scv test",
+    "test:debug": "node --inspect-brk ./node_modules/react-scv/bin/react-scv test --runInBand",
+    "postinstall": "react-scv dll"
+  },
+  "keywords": [],
+  "author": "Marcello Montemagno (http://www.curlycoding.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "react-scv": "0.0.11"
+  },
+  "dependencies": {
+    "create-react-class": "15.6.2",
+    "dot-prop-immutable": "1.4.0",
+    "react-immutable-state": "0.0.6"
+  }
+}
