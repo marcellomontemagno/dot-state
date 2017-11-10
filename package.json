@@ -1,6 +1,6 @@
 {
   "name": "dot-state",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An easy and &#34;developer experience&#34; focused, state management library for React applications.",
   "main": "./build/umd/umd.js",
   "react-scv": {
