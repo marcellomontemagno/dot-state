@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/marcellomontemagno/dot-state.svg?style=shield)](https://circleci.com/gh/marcellomontemagno/dot-state)
 
-# Api not used in production (yet)
+# Api not used in production
 
 This library is a WIP experiment trying to join the awesome FP react approach with a bit of OOP helping with information hiding and responsibilities segregation.
 
